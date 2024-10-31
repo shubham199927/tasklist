@@ -1,0 +1,50 @@
+
+body{
+    background-color: pink;
+    font-family :cursive
+}
+ul{
+    width: 100%;
+}
+
+.input-element{
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    transition: border-color 0.25s;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border: none
+}
+.input{
+    width: 100%;
+    background: #e8cfcfcc;
+    font-family: inherit;
+    text-align: center;
+    border: 1px solid coral;
+}
+form{
+ display: flex;
+}
+.submit-button{
+    font-size: 12px;
+    font-family: inherit;
+    color: white;
+    background: darkred;
+    border: none;
+    padding: 6px 18px;
+}
+.submit-button:hover{
+    background: red;
+    cursor: pointer;
+    box-shadow: 2px 2px black;
+}
+
+.input-element:hover{
+    border-color: darkred;
+}
+.listitem{
+    display: flex;
+    justify-content: space-around;
+}
